@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#081725" />
+    <meta
+      name="description"
+      content="Amadou Saikou Jallow — frontend developer creating beautiful and functional digital experiences."
+    />
+    <title>Amadou Saikou Jallow — Frontend Developer</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  </head>
+  <body>
+    <canvas class="network-background" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="nav-logo" href="#home" aria-label="Amadou Saikou Jallow, home">
+          ASJ<span>.</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="primary-navigation">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link nav-contact" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow">Frontend developer &amp; tech enthusiast</p>
+            <h1 class="hero-title" id="hero-title">Amadou Saikou Jallow</h1>
+            <p class="hero-description">
+              Creating beautiful and functional digital experiences.
+            </p>
+            <p class="hero-subtitle">
+              Student at Jasseh Code Camp, always curious about what the web can do.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View my work <span aria-hidden="true">↗</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Get in touch</a>
+            </div>
+            <div class="hero-socials" aria-label="Social profiles">
+              <a
+                href="https://github.com/Cescthebest6"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/amadou-saikou-jallow-7b2b2b1b2"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://twitter.com/AmadouSaikouJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+                ><i class="fab fa-x-twitter" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://dribbble.com/AmadouSaikouJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Dribbble"
+                ><i class="fab fa-dribbble" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="profile-image-container">
+            <img
+              src="./src/assets/profile-3.jpeg"
+              alt="Amadou Saikou Jallow"
+              class="profile-image"
+            />
+            <span class="availability"><span></span> Open to opportunities</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about">
+          <span class="scroll-cue-line"></span>
+          Scroll to explore
+        </a>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">A little about me</p>
+            <h2 class="section-title" id="about-title">
+             Building software, solving problems,<br /><span>learning every day.</span>
+            </h2>
+          </div>
+          <div class="about-content">
+            <div class="about-text reveal">
+              <p>
+                Hi! I'm an aspiring Software Developer and a student of Jasseh Code Camp (JCC), where I'm studying Agentic Software Engineering. I'm passionate about using technology to solve real-world problems, build meaningful software, and make everyday life easier.
+              </p>
+              <p>
+               My journey in tech is driven by curiosity, continuous learning, and a desire to grow into a skilled software developer. I'm constantly exploring new technologies, improving my programming skills, and learning how to turn ideas into practical software solutions.
+              </p>
+              <p>
+                
+                I believe great software isn't just about writing code; it's about understanding problems and building solutions that make a difference.
+              </p>
+            </div>
+            <div class="about-stats" aria-label="Experience highlights">
+              <article class="stat-card reveal">
+                <p class="stat-number">10<span>+</span></p>
+                <p class="stat-label">Projects completed</p>
+              </article>
+              <article class="stat-card reveal">
+                <p class="stat-number">1<span>+</span></p>
+                <p class="stat-label">Year experience</p>
+              </article>
+              <article class="stat-card reveal">
+                <p class="stat-number">10<span>+</span></p>
+                <p class="stat-label">Happy clients</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What I work with</p>
+            <h2 class="section-title" id="skills-title">
+              Skills &amp; <span>technologies</span>
+            </h2>
+            <p class="section-intro">
+              The tools I use to turn ideas into useful, considered experiences.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="card-icon" aria-hidden="true">
+                <i class="fas fa-code"></i>
+              </div>
+              <p class="card-index">01</p>
+              <h3>Frontend Development</h3>
+              <p>HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS</p>
+              <div class="skill-line"><span></span></div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="card-icon" aria-hidden="true">
+                <i class="fas fa-pen-nib"></i>
+              </div>
+              <p class="card-index">02</p>
+              <h3>UI/UX Design</h3>
+              <p>Figma, Responsive Design, User Research, Prototyping</p>
+              <div class="skill-line"><span></span></div>
+            </article>
+            <article class="skill-card reveal">
+              <div class="card-icon" aria-hidden="true">
+                <i class="fas fa-screwdriver-wrench"></i>
+              </div>
+              <p class="card-index">03</p>
+              <h3>Tools &amp; DevOps</h3>
+              <p>Git, GitHub, VS Code, Vercel, Vite</p>
+              <div class="skill-line"><span></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow">A few things I've made</p>
+              <h2 class="section-title" id="projects-title">
+                Featured <span>projects</span>
+              </h2>
+            </div>
+            <span class="project-count">Selected work <span>— 03</span></span>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <a class="project-image-wrap" href="https://barakah-fund.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio Website project">
+                <img
+                  src="./src/assets/Barakah-Fund.jpeg"
+                  alt="Preview of the portfolio website project"
+                  class="project-image"
+                  loading="lazy"
+                />
+                <span class="project-image-icon" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-body">
+                <div class="project-meta"><span>01</span><span>Web development</span></div>
+                <h3>Portfolio Website</h3>
+                <p>
+                  A modern, responsive portfolio showcasing work and skills.
+                  Built with vanilla JavaScript and custom CSS for optimal
+                  performance.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">HTML5</span>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="https://barakah-fund.vercel.app/" class="project-link">View project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a class="project-image-wrap" href="https://build-pro-coral.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Construction website project">
+                <img
+                  src="./src/assets/build-pro.jpeg"
+                  alt="Preview of the construction website project"
+                  class="project-image"
+                  loading="lazy"
+                />
+                <span class="project-image-icon" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-body">
+                <div class="project-meta"><span>02</span><span>Web development</span></div>
+                <h3>Construction website</h3>
+                <p>
+                  A modern, responsive website for a construction company,
+                  showcasing services, projects, and contact information.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="https://build-pro-coral.vercel.app/" class="project-link">View project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-image-wrap"
+                href= "https://advice-slip-generator-three.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Advice Generator project"
+              >
+                <img
+                  src="./src/assets/advice generator.jpeg"
+                  alt="Preview of the advice generator project"
+                  class="project-image"
+                  loading="lazy"
+                />
+                <span class="project-image-icon" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-body">
+                <div class="project-meta"><span>03</span><span>Web application</span></div>
+                <h3>Advice Generator</h3>
+                <p>
+                  A web application that generates random advice using an
+                  external API. Built with React and styled with Tailwind CSS.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Tailwind CSS</span>
+                  <span class="tag">HTML5</span>
+                </div>
+                <a
+                  href="https://advice-slip-generator-three.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  View project <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <div class="contact-copy">
+              <p class="eyebrow">Have a project in mind?</p>
+              <h2 class="section-title" id="contact-title">
+                Let's make something<br /><span>meaningful together.</span>
+              </h2>
+              <p class="contact-subtitle">
+                I'd love to hear from you. Feel free to reach out!
+              </p>
+              <a class="btn btn-primary" href="mailto:asjallow2004@gmail.com">
+                Say hello <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="contact-details">
+              <a class="contact-item" href="mailto:asjallow2004@gmail.com">
+                <span class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                <span><small>Email</small><strong>asjallow2004@gmail.com</strong></span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="contact-item" href="tel:+2203695565">
+                <span class="contact-icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                <span><small>Phone</small><strong>+220 3695565</strong></span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fas fa-location-dot" aria-hidden="true"></i></span>
+                <span><small>Location</small><strong>Costal Road, The Gambia</strong></span>
+              </div>
+              <div class="contact-socials">
+                <span>Find me elsewhere</span>
+                <div class="social-links">
+                  <a
+                    href="https://github.com/Cescthebest6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon"
+                    aria-label="GitHub"
+                    ><i class="fab fa-github" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/amadou-saikou-jallow-7b2b2b1b2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon"
+                    aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/AmadouSaikouJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon"
+                    aria-label="Twitter"
+                    ><i class="fab fa-x-twitter" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    href="https://dribbble.com/AmadouSaikouJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-icon"
+                    aria-label="Dribbble"
+                    ><i class="fab fa-dribbble" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          &copy; 2025
+          <a
+            href="https://wa.me/2203695565?text=Hello%20Amadou!%20I'm%20interested%20in%20having%20a%20website%20or%20software%20developed.%20Can%20we%20discuss%20my%20project?"
+            target="_blank"
+            rel="noopener noreferrer"
+          >CodeByAmadou</a>
+          (Jasseh Code Camp Student). All Rights Reserved.
+        </p>
+        <p class="footer-greeting">Jaaraama — Thanks for visiting</p>
+        <a href="#home" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
